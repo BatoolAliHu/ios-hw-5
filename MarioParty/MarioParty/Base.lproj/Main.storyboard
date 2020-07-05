@@ -87,7 +87,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="dice"/>
                                 <connections>
-                                    <action selector="randomizeStars:" destination="moA-X3-dsJ" eventType="touchUpInside" id="bcz-ex-E5T"/>
+                                    <action selector="randomizeStars:" destination="moA-X3-dsJ" eventType="touchUpInside" id="sJO-b6-rnZ"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1fO-jb-TIe">
@@ -99,7 +99,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="music"/>
                                 <connections>
-                                    <action selector="playCharacterSound:" destination="moA-X3-dsJ" eventType="touchUpInside" id="adQ-LT-lle"/>
+                                    <action selector="playCharacterSound:" destination="moA-X3-dsJ" eventType="touchUpInside" id="Rzx-6A-mpF"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -107,7 +107,7 @@
                         <viewLayoutGuide key="safeArea" id="B8z-nN-jML"/>
                     </view>
                     <connections>
-                        <outlet property="backgroundImg" destination="mbv-bF-p2C" id="b1c-Y0-YTE"/>
+                        <outlet property="backgroundImg" destination="mbv-bF-p2C" id="TlT-yk-Qw5"/>
                         <outlet property="imageView" destination="jzQ-AF-OFT" id="qFu-TV-aY0"/>
                         <outlet property="nameLabel" destination="zIa-Xw-NmJ" id="jhL-Bw-8EE"/>
                         <outlet property="starsImgView" destination="1fO-jb-TIe" id="X0b-LF-cxS"/>
